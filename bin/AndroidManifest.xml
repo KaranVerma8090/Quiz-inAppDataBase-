@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlinequiz"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quiz"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.onlinequiz.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.onlinequiz.Login_page"
+            android:label="@string/title_activity_login_page" >
+        </activity>
+        <activity
+            android:name="com.example.onlinequiz.Registration_page"
+            android:label="@string/title_activity_registration_page" >
+        </activity>
+        <activity
+            android:name="com.example.onlinequiz.Topic_page"
+            android:label="@string/title_activity_topic_page" >
+        </activity>
+        <activity
+            android:name="com.example.onlinequiz.SignIn_page"
+            android:label="@string/title_activity_sign_in_page" >
+        </activity>
+        <activity
+            android:name="com.example.onlinequiz.Topic_Page"
+            android:label="@string/title_activity_topic__page" >
+        </activity>
+        <activity
+            android:name="com.example.onlinequiz.Home_page"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+        <activity
+            android:name="com.example.onlinequiz.Question_page1"
+            android:label="@string/title_activity_question_page1" >
+        </activity>
+        <activity
+            android:name="com.example.onlinequiz.Question_page2"
+            android:label="@string/title_activity_question_page2" >
+        </activity>
+        <activity
+            android:name="com.example.onlinequiz.Question_page3"
+            android:label="@string/title_activity_question_page3" >
+        </activity>
+        <activity
+            android:name="com.example.onlinequiz.Question_page4"
+            android:label="@string/title_activity_question_page4" >
+        </activity>
+        <activity
+            android:name="com.example.onlinequiz.Question_page5"
+            android:label="@string/title_activity_question_page5" >
+        </activity>
+        <activity
+            android:name="com.example.onlinequiz.Final_page"
+            android:label="@string/title_activity_final_page" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Online Quiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login_page">Login_page</string>
+    <string name="title_activity_registration_page">Registration_page</string>
+    <string name="title_activity_topic_page">Topic_page</string>
+    <string name="title_activity_sign_in_page">SignIn_page</string>
+    <string name="title_activity_topic__page">Topic_Page</string>
+    <string name="title_activity_home_page">Home_page</string>
+    <string name="title_activity_question_page1">Question_page1</string>
+    <string name="title_activity_question_page2">Question_page2</string>
+    <string name="title_activity_question_page3">Question_page3</string>
+    <string name="title_activity_question_page4">Question_page4</string>
+    <string name="title_activity_question_page5">Question_page5</string>
+    <string name="title_activity_final_page">Final_page</string>
+
+</resources>
